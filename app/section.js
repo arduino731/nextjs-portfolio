@@ -1,7 +1,8 @@
+ 
  function Home() {
     return (
         <div>
-            <h1 className="UX">UX enginner crafting beatiful digital user experiences</h1>
+            <h1 className="text-red-300 font-bold underline">UX enginner crafting beatiful digital user experiences</h1>
             <div>
                 <button>View my work</button>
             </div>
