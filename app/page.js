@@ -9,7 +9,8 @@ import "./style.css"
 
 export default function Page(){
     return(
-        <div>
+        <div className="bg-slate-300">
+            
             <Header />
             <Navbar />
             <Section />

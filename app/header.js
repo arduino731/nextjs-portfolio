@@ -32,6 +32,8 @@ export default function Header(){
             <meta property="og:title" content="Brian van Vlymen" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://van-vlymen.com" />
+
+            <link rel="icon" type="image/x-icon" href="/images/favicon.ico"></link>
         </div>
     )
 }
