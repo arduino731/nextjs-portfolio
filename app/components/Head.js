@@ -1,4 +1,4 @@
-export default function Header(){
+const Head = () => {
     return (
         <div>
             {/* <!-- Google Analytics --> */}
@@ -37,3 +37,5 @@ export default function Header(){
         </div>
     )
 }
+
+export default Head

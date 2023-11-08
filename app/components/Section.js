@@ -1,5 +1,5 @@
  
- function Home() {
+const Section = () => {
     return (
         <div>
             <h1 className="text-red-300 font-bold underline">UX enginner crafting beatiful digital user experiences</h1>
@@ -12,4 +12,4 @@
     );
 }
 
-export default Home;
+export default Section;
