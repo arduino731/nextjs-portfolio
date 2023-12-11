@@ -1,13 +1,10 @@
 import React from 'react'
-
-// import Head from './components/Head'
-// import Nav from './components/Nav'
-// import Section from './components/Section'
-import About from './about'
-import "./style.css"
-
-import { Head, Nav, Section} from './components';
-
+import About from './components/about'
+import "./index.css"
+// import Image from 'next/image';
+import Head from './components/head';
+import Nav from './components/nav';
+import Section from './components/section';
 
 
 
@@ -22,8 +19,7 @@ export default function Page(){
                 <Nav />
             </section>
             <section className="xl:padding-1 wide:padding-1 wide"> 
-                <Section />
-                <About />   
+                <Section />   
             </section>
             <section className="padding py-2"> 
                 <About />   
