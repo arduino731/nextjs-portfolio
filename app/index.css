@@ -20,6 +20,9 @@
     .padding-x {
         @apply sm:px-16 px-8;
       }
+    .brian {
+        @apply font-bold underline
+    }
 
     
 }

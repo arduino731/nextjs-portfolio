@@ -6,6 +6,7 @@ import Head from './components/Head';
 import Nav from './components/Nav';
 import Section from './components/Section';
 import About from './components/About';
+import Projects from './components/Projects';
 
 
 export default function Page(){
@@ -18,11 +19,14 @@ export default function Page(){
             <section>
                 <Nav />
             </section>
-            <section className="xl:padding-1 wide:padding-1 wide"> 
+            <section className=""> 
                 <Section />   
             </section>
             <section className="padding py-2"> 
                 <About />   
+            </section>
+            <section className="brian py-2 m-5 bg-slate-500 ring-red-400 border-4 border-slate-800 rounded-md"> 
+                <Projects />   
             </section>
         </main>
     )

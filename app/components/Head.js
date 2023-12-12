@@ -1,22 +1,24 @@
+import Script from "next/script"
+
 const Head = () => {
     return (
         <div>
-            {/* <!-- Google Analytics --> */}
-            {/* <!-- Google tag (gtag.js) --> */}
-            {/* https://analytics.google.com/analytics/web/?pli=1#/a74055778p254385099/admin/streams/table/2182871075 */}
-            {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZF27Q02HD"></script> */}
-            {/* <script> */}
-            {/* window.dataLayer = window.dataLayer || []; */}
-            {/* function gtag(){dataLayer.push(arguments);} */}
-            {/* gtag('js', new Date()); */}
-
-            {/* gtag('config', 'G-BZF27Q02HD'); */}
-            {/* </script> */}
-            {/* Regular data  */}
-            {/* <meta charset="utf-8"> */}
-            {/* <meta content="text/html; charset=utf-8" http-equiv="Content-Type"> */}
-            
-            {/* <!-- Description --> */}
+            {/* Data is hugely beneficial to making good decisions */}
+            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-BZF27Q02HD"/>
+            <Script
+            id='google-analytics'
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+                __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-BZF27Q02HD', {
+                    page_path: window.location.pathname,
+                });
+                `,
+                }}
+            />
             <meta name="author" content="Brian van Vlymen"/>
             <meta name="description" content="Front-end Developer" />
             <meta name="keywords"  content="Brian van Vlymen, graphic design, web design, website design, web developer, website builder, responsive web design, front-end developer, build a website, webdesign"/>
