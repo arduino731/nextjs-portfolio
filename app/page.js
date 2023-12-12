@@ -1,11 +1,11 @@
 import React from 'react'
-import About from './components/about'
+
 import "./index.css"
 // import Image from 'next/image';
-import Head from './components/head';
-import Nav from './components/nav';
-import Section from './components/section';
-
+import Head from './components/Head';
+import Nav from './components/Nav';
+import Section from './components/Section';
+import About from './components/About';
 
 
 export default function Page(){
