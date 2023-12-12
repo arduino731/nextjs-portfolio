@@ -25,13 +25,8 @@ const Nav = () => {
                         />
                     </button>
                 </div>
-                
-
-
 
                 <div className="bg-slate-700 font-semibold text-white p-2 m-2">
-                    <h1>Consider Light and Dark Modes</h1>
-                    <p>radio animation</p>
                     <p>Provide options for users to switch between light and dark modes to accommodate varying preferences and visual needs.</p>
                 </div>
             </nav>
